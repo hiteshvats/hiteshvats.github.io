@@ -1,0 +1,279 @@
+body{
+  background-color: rgb(200,200,200);
+  color:rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin:0;
+
+}
+#home{
+  background-color:rgb(255,127,80);
+  color: rgb(255, 255, 255);
+  padding-top: 1px;
+  padding-left: 43%;
+}
+#home ul{
+  padding: 0;
+  list-style: none;
+}
+#home a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 50px;
+  font-style: normal;
+  font-family: fantasy;
+}
+.box1{
+  background-image: url('../images/box1.jpg');
+  background-position: center right;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.box1 h1{
+  color:rgb(0,0,0);
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: 1px 1px #FFF;
+}
+.box1 p{
+  color:rgb(0,0,0);
+  font-size: 18px;
+  text-shadow: 1px 1px #FFF;
+  font-weight: bold;
+}
+
+.boxbox{
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding: 1%;
+  margin:2%;
+}
+.cbox a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.cbox a:hover{
+  color: red;
+}
+
+.cbox1
+{
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.cat1 img{
+  float: centre;
+  width:60%;
+  border-radius: 10px;
+}
+
+.cat1 a{
+  text-decoration: none;
+  color:rgb(255,255,255);
+  font-size: 16px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+.cbox2
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+
+}
+
+
+
+.cbox3
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.cbox4
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.cbox5
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.cbox6
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.cbox7
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.cbox8
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
+.cbox9
+{
+  float: left;
+  background-image: url('../images/cato.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  width: 30%;
+  padding: 10px;
+  margin: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.abouts{
+  float: left;
+  width:65%;
+  background-color: #333;
+  background-size: contain;
+  color:#fff;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+
+
+.details{
+  float: right;
+  width:25%;
+  margin: 10px;
+  background-color: #333;
+  background-size: contain;
+  border-radius: 10px;
+  color:#fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+@media(max-width:200px)  {
+  .cbox1{
+    width:100%;
+    float:none;
+  }
+  .cbox2{
+    width:100%;
+    float:none;
+  }
+  .cbox3{
+    width:100%;
+    float:none;
+  }
+  .cbox4{
+    width:100%;
+    float:none;
+  }
+  .cbox5{
+    width:100%;
+    float:none;
+  }
+  .cbox6{
+    width:100%;
+    float:none;
+  }
+  .cbox7{
+    width:100%;
+    float:none;
+  }
+  .cbox8{
+    width:100%;
+    float:none;
+  }
+  .cbox9{
+    width:100%;
+    float:none;
+  }
